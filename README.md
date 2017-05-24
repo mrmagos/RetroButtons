@@ -23,3 +23,9 @@ $ sudo systemctl start powerbtn resetbtn
 $ sudo systemctl enable powerbtn resetbtn
 </code>
 </pre>
+
+# Optional Configuration
+
+If you have a LED connected to your power button, enable UART in <code>raspi-confg</code>, and connect it to pin 8.
+
+If you've wired a NPN Transistor to a fan to allow GPIO control, configure the pin you've chosen to use in the <code>power.py</code> script.
