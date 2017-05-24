@@ -1,0 +1,12 @@
+[Service]
+ExecStart=/usr/bin/python /home/pi/scripts/power.py
+WorkingDirectory=//home/pi/scripts/
+Rstart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=powerbtn
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
