@@ -1,6 +1,6 @@
 [Service]
-ExecStart=/usr/bin/python /home/pi/scripts/power.py
-WorkingDirectory=//home/pi/scripts/
+ExecStart=/usr/bin/python /home/pi/RetroButtons/scripts/power.py
+WorkingDirectory=/home/pi/RetroButtons/scripts/
 Rstart=always
 StandardOutput=syslog
 StandardError=syslog
